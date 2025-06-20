@@ -558,6 +558,32 @@ export default function FleaMarketPrototype() {
             </TabsContent>
           </Tabs>
         </div>
+
+        {/* Footer */}
+        <footer className="bg-gray-800 text-white mt-12">
+          <div className="max-w-7xl mx-auto px-6 py-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <h3 className="text-lg font-semibold mb-2">플리마켓 사물주소체계</h3>
+                <p className="text-gray-300 text-sm">플리마켓 사물 주소 체계 제안을 위한 프로토타입입니다.</p>
+                <p className="text-gray-400 text-xs mt-2">공간분석 4조</p>
+              </div>
+              <div className="text-right">
+                <div className="mb-2">
+                  <a
+                    href="https://github.com/Jinacker"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300 text-sm"
+                  >
+                    GitHub: @Jinacker
+                  </a>
+                </div>
+                <p className="text-gray-400 text-xs">© 2024 공간분석 4조. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     )
   }
@@ -883,6 +909,32 @@ export default function FleaMarketPrototype() {
             </Card>
           </div>
         </div>
+
+        {/* Footer */}
+        <footer className="bg-gray-800 text-white mt-12">
+          <div className="max-w-7xl mx-auto px-6 py-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <h3 className="text-lg font-semibold mb-2">플리마켓 사물주소 체계 제안 </h3>
+                <p className="text-gray-300 text-sm">플리마켓 사물 주소 체계 제안을 위한 프로토타입입니다.</p>
+                
+              </div>
+              <div className="text-right">
+                <div className="mb-2">
+                  <a
+                    href="https://github.com/Jinacker"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:text-blue-300 text-sm"
+                  >
+                    GitHub: @Jinacker
+                  </a>
+                </div>
+                <p className="text-gray-400 text-xs">© 2025-1 공간분석 4조. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   )
