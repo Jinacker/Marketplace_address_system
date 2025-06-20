@@ -237,7 +237,7 @@ export default function FleaMarketPrototype() {
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto p-6">
+        <div className="max-w-7xl mx-auto p-6 mb-32">
           <Tabs defaultValue="dashboard" className="space-y-6">
             <TabsList className="grid w-full grid-cols-4">
               <TabsTrigger value="dashboard" className="flex items-center gap-2">
@@ -560,7 +560,7 @@ export default function FleaMarketPrototype() {
         </div>
 
         {/* Footer */}
-        <footer className="bg-gray-800 text-white mt-12">
+        <footer className="bg-gray-800 text-white">
           <div className="max-w-7xl mx-auto px-6 py-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
@@ -606,7 +606,7 @@ export default function FleaMarketPrototype() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto p-6">
+      <div className="max-w-7xl mx-auto p-6 mb-32">
         <div className="grid grid-cols-1 xl:grid-cols-4 gap-6">
           {/* Map Area */}
           <div className="xl:col-span-3">
@@ -911,13 +911,12 @@ export default function FleaMarketPrototype() {
         </div>
 
         {/* Footer */}
-        <footer className="bg-gray-800 text-white mt-12">
-          <div className="max-w-7xl mx-auto px-6 py-8">
+        <footer className="bg-gray-800 text-white">
+          <div className="max-w-7xl mx-auto px-6 py-px">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <h3 className="text-lg font-semibold mb-2">플리마켓 사물주소 체계 제안 </h3>
-                <p className="text-gray-300 text-sm">플리마켓 사물 주소 체계 제안을 위한 프로토타입입니다.</p>
-                
+                <p className="max-w-7xl mx-auto px-6 py-26 py-2">플리마켓 사물 주소 체계 제안을 위한 프로토타입입니다.</p>
               </div>
               <div className="text-right">
                 <div className="mb-2">
